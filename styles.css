@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* m0, p0, bxi */
+
+
+/* site variables here */
+:root {
+--purple: #515fbc;
+--gray-light: #8e99a1;
+--blue-dark: #1e262f;
+--white: #fefefe;
+}
+
+
+
+hero {
+background-color: black;
+}
+
+logo{
+    background-color: black;
+}
+
+body{
+    background-color: var(--purple);
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+  text-align: center;
+ 
+}
+
+h1{
+    font-size: 50px;
+}
+
+.btn-custom{
+    background-color:#1e262f;
+border: none;
+
+}
+
+.btn-custom:hover{
+    background-color: #fefefe;
+  color: #1e262f;
+}
+
+
+.form-custom{
+    width: 200px; 
+    margin-right: 10px;
+    
+}
+
+
+
+/* if statement - if windows gets 
+smaller, reduce font size */
+/* 
+@media (max-width: 1200px) {
+    h1{
+        font-size: 10px ;
+    }
+    
+} */
